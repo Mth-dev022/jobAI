@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Epilogue, 'sans-serif';
+  scroll-behavior: smooth;
+}
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #474bff 94%, #0000) top/6.4px 6.4px no-repeat,
+    conic-gradient(#0000 30%, #474bff);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 6.4px), #000 0);
+  animation: spinner-c7wet2 1s infinite linear;
+}
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes spinner-a90wxe {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.jobs-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  gap: 50px;
+}
+.jobs-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 265px;
+  gap: 20px;
+  padding: 30px 0px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgba(171, 171, 171, 1);
+}
+.employe {
+  width: 280px;
+}
+.company {
+  font-size: 16px;
+  color: #535257;
+}
+.icons-container {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.employment-type {
+  position: relative;
+  top: -3px;
+}
+.line {
+  margin-right: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+}
