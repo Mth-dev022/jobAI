@@ -7,7 +7,7 @@
     }
   ],
   "framework": {
-    "node": "20.x" // 
+    "node": "20.x" 
   },
   "routes": [
     {
