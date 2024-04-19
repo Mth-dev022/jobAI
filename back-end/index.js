@@ -16,6 +16,10 @@ app.use(cors({
     credentials: true,
 }))
 
+app.get('/', (req,res) => {
+ res.send("Hello")
+})
+
 app.use(express.json())
 app.use(cookieParser())
 app.use('/api/auth', authRoutes)
