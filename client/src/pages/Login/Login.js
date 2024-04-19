@@ -44,7 +44,7 @@ const Login = () => {
       return;
     }
     try {
-      const response = await axios.post("https://job-ai-chi.vercel.app/api/auth/login", {
+      const response = await axios.post("https://job-ai-eight.vercel.app/api/auth/login", {
         email,
         password
       });
