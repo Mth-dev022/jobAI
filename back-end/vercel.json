@@ -6,9 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "framework": {
-    "node": "20.x" 
-  },
   "routes": [
     {
       "src": "/api/auth/login",
