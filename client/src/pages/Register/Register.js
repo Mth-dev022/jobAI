@@ -61,7 +61,7 @@ const Register = () => {
       return;
     }
     try {
-      await axios.post("https://job-ai-one.vercel.app/auth/register", {
+      await axios.post("https://job-ai-one.vercel.app/api/auth/register", {
         username,
         email,
         password
