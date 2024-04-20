@@ -1,4 +1,5 @@
-<h1 align="center" > JobAI Plataform </h1>
+<a href="https://job-ai-yf7m.vercel.app/"> <h1 align="center" > JobAI Plataform </h1> </a>
+
 <br>
 
 <p align="center">    
@@ -36,6 +37,15 @@ Back-end
 - Cookie-parser
 - Json Web Token
 - Cors
-- 
+   
 Banco de dados: <br>
 -PostgreSQL
+
+# ⏭️ Atualizações futuras
+
+- Testes E2E e unitarios
+- Dockerização
+- Personalização do PDF
+- Paginação do retorno da busca dos empregos
+- Responsividade para mobile
+
