@@ -11,7 +11,7 @@ const dotenv = require("dotenv")
 dotenv.config()
 
 app.use(cors({
-    origin: 'https://job-ai-yf7m.vercel.app/',
+    origin: 'https://job-ai-yf7m.vercel.app',
     methods: ["GET", "POST"],
     credentials: true,
 }))
