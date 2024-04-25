@@ -47,5 +47,5 @@ Banco de dados: <br>
 - Dockerização
 - Personalização do PDF
 - Paginação do retorno da busca dos empregos
-- Responsividade para mobile
+- Responsividade para mobile.
 
