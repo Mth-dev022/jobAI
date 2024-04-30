@@ -25,7 +25,6 @@ const Header = () => {
 
     const handleSearch = async (value) => {
         const options = {
-            const options = {
               method: 'GET',
               url: 'https://jsearch.p.rapidapi.com/search',
               params: {
