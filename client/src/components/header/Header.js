@@ -31,7 +31,7 @@ const Header = () => {
               params: {
                 query: value,
                 page: '1',
-                num_pages: '1'
+                num_pages: '5'
               },
               headers: {
                 'X-RapidAPI-Key': '0d4772f77emshbb607fed986a3c4p124dc8jsnad0674983b19',
