@@ -25,16 +25,19 @@ const Header = () => {
 
     const handleSearch = async (value) => {
         const options = {
-            params: {
+            const options = {
+              method: 'GET',
+              url: 'https://jsearch.p.rapidapi.com/search',
+              params: {
                 query: value,
                 page: '1',
-                num_pages: '5'
-            },
-            headers: {
-                'X-RapidAPI-Key': 'b8ed72478bmshff7e781ee478ac2p178268jsnb7343fd8c78a',
+                num_pages: '1'
+              },
+              headers: {
+                'X-RapidAPI-Key': '0d4772f77emshbb607fed986a3c4p124dc8jsnad0674983b19',
                 'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
-            }
-        };
+              }
+            };
         try {
             setLoading(true)
             const response = await axios.get('https://jsearch.p.rapidapi.com/search', options);
