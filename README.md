@@ -1,4 +1,4 @@
-<a href="https://job-ai-yf7m.vercel.app/"> <h1 align="center" > JobAI Plataform. </h1> </a>
+<a href="https://job-ai-yf7m.vercel.app/"> <h1 align="center" > JobAI Plataform </h1> </a>
 
 <br>
 
