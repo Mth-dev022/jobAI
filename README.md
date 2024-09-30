@@ -10,7 +10,7 @@
  <img width="100%" src="client/src/assets/main/form.png">
 </p>
 
-#  📝 Descrição do projeto
+#  📝 Descrição do projet
 <p>
   O JobAI é uma plataforma de busca de empregos projetada para conectar candidatos a empregadores de forma eficiente. Os usuários podem criar uma conta, fazer login para acessar todas as funcionalidades da plataforma, e pesquisar vagas de emprego inserindo o cargo desejado, e opcionalmente, o estado ou área de interesse. Além disso, eles podem criar currículos personalizados com nosso gerador de currículo integrado. Estamos constantemente trabalhando para aprimorar o JobAI e proporcionar uma experiência ainda melhor aos nossos usuários.
 </p>
