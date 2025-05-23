@@ -7,7 +7,7 @@
   <img width="100%" src="client/src/assets/main/login.png">
   <img width="100%" src="client/src/assets/main/register.png">
   <img width="100%" src="client/src/assets/main/createCV.png">
- <img width="100%" src="client/src/assets/main/form.png"
+ <img width="100%" src="client/src/assets/main/form.png">
 </p>
 
 #  📝 Descrição do projeto
